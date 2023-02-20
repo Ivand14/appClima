@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+html h1, html h2 {
+  font-family: "Roboto Mono", monospace;
+}
+html p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.contenedorClima {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: url("../img/john-towner-CakC6u4d95g-unsplash.jpg");
+  height: 100vh;
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.climaApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 250, 250, 0.6784313725);
+  padding: 8rem;
+  border-radius: 2rem;
+  gap: 5rem;
+}
+
+.contenedorFechaHora {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedorFecha, .contenedorHrs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+.climaDatosContenedor {
+  display: flex;
+  border-bottom: 1px solid black;
+  margin: 1rem;
+}
+.climaDatosContenedor p {
+  font-size: 2.5rem;
+}
+
+.climaDatos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.temp {
+  border-right: solid 0.2rem black;
+  margin: 1rem;
+}
+
+.nombreDatos {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+.nombreDatos h1 {
+  font-size: 2rem;
+}
+.nombreDatos h2 {
+  font-size: 2rem;
+}
+
+.icon img {
+  height: 1.3rem;
+  margin-right: 0.2rem;
+}
+
+@media (min-width: 597px) and (max-width: 702px) {
+  .climaApp {
+    padding: 3rem;
+  }
+}
+@media (min-width: 200px) and (max-width: 597px) {
+  .climaApp {
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .temp {
+    margin: 2rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

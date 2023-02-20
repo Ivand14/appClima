@@ -1,0 +1,84 @@
+.contenedorClima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: url('../img/john-towner-CakC6u4d95g-unsplash.jpg');
+    height: 100vh;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.climaApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafaad;
+    padding: 8rem;
+    border-radius: 2rem;
+    gap: 5rem;
+}
+
+.contenedorFechaHora{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorFecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom:1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.contenedorHrs{
+    @extend .contenedorFecha;
+}
+
+.climaDatosContenedor{
+    display: flex;
+    p{
+        font-size: 2.5rem;
+    }
+    border-bottom: 1px solid black;
+    margin: 1rem;
+}
+.climaDatos{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 2rem;
+}
+.temp{
+    border-right: solid .2rem black;
+    margin: 1rem;
+}
+
+.nombreDatos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .5rem;
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}
+.icon{
+    img{
+        height: 1.3rem;
+        margin-right: .2rem;
+    }
+}

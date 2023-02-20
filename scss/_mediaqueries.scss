@@ -1,0 +1,21 @@
+
+@media (min-width:597px) and (max-width:702px) {
+    .climaApp{
+        padding: 3rem;
+    }
+}
+
+@media (min-width:200px) and (max-width:597px) {
+    .climaApp{
+        padding: 3rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .temp{
+        margin: 2rem;
+    }
+
+}
