@@ -49,14 +49,24 @@ const climaDatos=(response)=>{
             </div>
         </div>
             <div class='nombreDatos'>
-                <h1><span class='icon'><img src="../img/globo-terraqueo.png"></span>${weather.localizacion}</h1>
-                <h2> <span class='icon'><img src="../img/nube.png"></span>${weather.condicion}</h2>
+                <h1><img src="../img/globo-terraqueo.png" class='icon'></span>${weather.localizacion}</h1>
+                <h2><img src="../img/nube.png" class='icon'></span>${weather.condicion}</h2>
             </div>
     </div>
 
 
     `
     climaApp.appendChild(div)
+
+    cleanUp()
+}
+
+cleanUp=()=>{
+    let climaApp=document.querySelector('.climaApp');
+    let loader=document.querySelector('#loader')
+
+    loader.style.display='none'
+    climaApp.style.display='flex'
 }
 
 const onLoad=()=>{
