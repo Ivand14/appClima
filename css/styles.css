@@ -91,11 +91,11 @@ html p {
 }
 .nombreDatos h2 {
   font-size: 2rem;
+  margin-right: 1rem;
 }
 
-.icon {
-  height: 1.3rem;
-  margin-right: 0.2rem;
+.bi1 {
+  margin-right: 1rem;
 }
 
 .loader,
