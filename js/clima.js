@@ -49,8 +49,8 @@ const climaDatos=(response)=>{
             </div>
         </div>
             <div class='nombreDatos'>
-                <h1><img src="../img/globo-terraqueo.png" alt="globo" class='icon'></span>${weather.localizacion}</h1>
-                <h2><img src="../img/nube.png" alt="nube" class='icon'></span>${weather.condicion}</h2>
+                <h1><span class= 'icon'><img src="./img/globo-terraqueo.png" alt="globo-terraqueo" class='icon'></span>${weather.localizacion}</h1>
+                <h2><span class='icon'><img src="./img/nube.png" alt="nube" class='icon'></span>${weather.condicion}</h2>
             </div>
     </div>
 
